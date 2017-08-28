@@ -1,2 +1,2 @@
-# hello-world
-Testing GitHub.
+# Info
+Several fMRI scripts.
