@@ -1,7 +1,7 @@
 SCRIPT STRUCTURE.
 
 MAIN: tfMRI_preprocessing_pipeline_SPM.m
-tfMRI preprocessing pipeline using SPM (BIDS folder format) created on MATLAB_R2015b
+tfMRI preprocessing pipeline using SPM (BIDS folder format) created on MATLAB_R2015b.
 The file structure is not yet completely adapted to the BIDS format.
 
 SUBSCRIPTS: 
