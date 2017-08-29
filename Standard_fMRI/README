@@ -7,7 +7,7 @@ SCRIPT STRUCTURE.
 	When preprocessing rs-fMRI an additional preprocessing step is added: 
 	denoise.m (line 69/subscript 12)
 
-	SUBSCRIPTS: 
+SUBSCRIPTS: 
 	1.  ima.m
 	2.  removefirstf.m
         3.  BIDS_rename.m -> can be commented out
