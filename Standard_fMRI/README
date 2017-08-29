@@ -1,0 +1,31 @@
+SCRIPT STRUCTURE.
+
+	MAIN: fMRI_preprocessing_pipeline_SPM.m
+	fMRI (rs or task) standard preprocessing pipeline using SPM (BIDS folder format) created on MATLAB_R2015b: http://bids.neuroimaging.io/
+	The file names are partly adapted to the BIDS format.
+	When preprocessing rs-fMRI an additional preprocessing step is added: denoise.m (line 69/subscript 12)
+
+	SUBSCRIPTS: 
+	1.  ima.m
+	2.  removefirstf.m
+        3.  BIDS_rename.m -> can be commented out
+	4.  slicetiming.m
+	5.  realign.m
+	6.  coregistration.m
+	7.  segmentation.m
+	8.  normalize_func.m
+	9.  smoothing.m
+	10. normalize_anat.m
+	11. build_functionalmask_normalized.m OR
+       %12. build_functionalmask_standard.m
+	13. brain.m
+       %14. denoise.m
+
+FOLDER STRUCTURE.
+
+	dicomdir: sub-01: anat       my_dataset: sub-01: anat: sub-01_T1w.nii, ...
+	                  func                           func: f4D_sub-01_task_bold.nii, ...
+	          sub-02: anat                   sub-02: anat
+ 	                  func                           func
+	          ...                            ...
+
