@@ -25,7 +25,7 @@ SCRIPT STRUCTURE.
 	13. brain.m
        %14. denoise.m -> only for resting-state fMRI
 
-FOLDER/FILE STRUCTURE.
+FOLDER/FILE STRUCTURE after subscript (3).
 
 	dicomdir: sub-01: anat       my_dataset: sub-01: anat: sub-01_T1w.nii, ...
 	                  func                           func: f4D_sub-01_task_bold.nii, ...
