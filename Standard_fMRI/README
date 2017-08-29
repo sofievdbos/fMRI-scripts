@@ -1,9 +1,11 @@
 SCRIPT STRUCTURE.
 
 	MAIN: fMRI_preprocessing_pipeline_SPM.m
-	fMRI (rs or task) standard preprocessing pipeline using SPM (BIDS folder format) created on MATLAB_R2015b: http://bids.neuroimaging.io/
+	fMRI (rs or task) standard preprocessing pipeline using SPM (BIDS folder format) created on MATLAB_R2015b: 
+	http://bids.neuroimaging.io/
 	The file names are partly adapted to the BIDS format.
-	When preprocessing rs-fMRI an additional preprocessing step is added: denoise.m (line 69/subscript 12)
+	When preprocessing rs-fMRI an additional preprocessing step is added: 
+	denoise.m (line 69/subscript 12)
 
 	SUBSCRIPTS: 
 	1.  ima.m
