@@ -3,7 +3,7 @@ Instructions are given in the main script, as well as in the subscripts.
 SCRIPT STRUCTURE.
 
 	MAIN: fMRI_preprocessing_pipeline_SPM.m
-	fMRI (resting-state or task) standard preprocessing pipeline using SPM (BIDS folder format) 
+	fMRI (resting-state or task) standard preprocessing pipeline using SPM (BIDS format) 
 	created on MATLAB_R2015b: http://bids.neuroimaging.io/
 	The file names are partly adapted to the BIDS format as well.
 	When preprocessing rs-fMRI an additional preprocessing step is added: 
