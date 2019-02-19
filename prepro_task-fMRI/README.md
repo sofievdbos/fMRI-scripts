@@ -1,6 +1,6 @@
 Instructions are given in the main script, as well as in the subscripts.
 
-SCRIPT STRUCTURE.
+# SCRIPT STRUCTURE.
 
 	MAIN: fMRI_preprocessing_pipeline_SPM.m
 	fMRI (resting-state or task) standard preprocessing pipeline for one task using SPM 
@@ -8,7 +8,7 @@ SCRIPT STRUCTURE.
 	The file names are adapted to the BIDS format as well.
 	When preprocessing rs-fMRI an additional preprocessing step is added: 
 	denoise.m (subscript 14)
-   (!!) Only compatible with 1 task
+        **Only compatible with 1 task**
 
 	SUBSCRIPTS (i.e. preprocessing steps): 
 	1.  ima.m
@@ -29,7 +29,7 @@ SCRIPT STRUCTURE.
        Remark:
        Conversion to the BIDS format can also be done before the removal of the dummy scans.
 
-FOLDER/FILE STRUCTURE after subscript 3.
+# FOLDER/FILE STRUCTURE after subscript 3.
 
 	dicomdir: sub-01: anat       my_dataset: sub-01: anat: sub-01_T1w.nii, ...
 	                  func                           func: f4D_sub-01_task_bold.nii, ...
