@@ -1,2 +1,2 @@
 # Info
-Several fMRI scripts.
+fMRI scripts.
